@@ -1,0 +1,106 @@
+[
+    {"id":"01",
+    "name":"霄坑野生茶",
+    "money":"418.8元/斤",
+    "imgUrl":"/imges/01.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"02",
+    "name":"黄山毛峰",
+    "money":"120元/斤",
+    "imgUrl":"/imges/02 copy.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"03",
+    "name":"西湖龙井",
+    "money":"300元/斤",
+    "imgUrl":"/imges/03 copy.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"04",
+    "name":"祁门红茶",
+    "money":"100元/斤",
+    "imgUrl":"/imges/04.jpeg",
+    "value":"0"
+    },
+                    
+    {"id":"05",
+    "name":"安吉白茶",
+    "money":"325.8元/斤",
+    "imgUrl":"/imges/05 copy.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"06",
+    "name":"铁观音",
+    "money":"277.2元/斤",
+    "imgUrl":"/imges/06.jpeg",
+    "value":"0"
+    },
+                    
+    {"id":"07",
+    "name":"普洱熟茶",
+    "money":"150元/饼",
+    "imgUrl":"/imges/07.jpeg",
+    "value":"0"
+    },
+                    
+    {"id":"08",
+    "name":"九华黄精茶",
+    "money":"195元/斤",
+    "imgUrl":"/imges/08.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"09",
+    "name":"荞麦茶",
+    "money":"38.8元/罐",
+    "imgUrl":"/imges/09 copy.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"10",
+    "name":"玫瑰花茶",
+    "money":"24元/盒",
+    "imgUrl":"/imges/10.png",
+    "value":"0"
+    },
+                    
+    {"id":"11",
+    "name":"菊花茶",
+    "money":"29.8元/盒",
+    "imgUrl":"/imges/11.png",
+    "value":"0"
+    },
+                    
+    {"id":"12",
+    "name":"茉莉花茶",
+    "money":"31.9元/罐",
+    "imgUrl":"/imges/12.jpeg",
+    "value":"0"
+    },
+                    
+    {"id":"13",
+    "name":"苦丁茶",
+    "money":"7.9元/袋",
+    "imgUrl":"/imges/13.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"14",
+    "name":"白毫银针",
+    "money":"580元/斤",
+    "imgUrl":"/imges/14.jpg",
+    "value":"0"
+    },
+                    
+    {"id":"15",
+    "name":"冻顶乌龙",
+    "money":"680元/斤",
+    "imgUrl":"/imges/15.jpg",
+    "value":"0"
+    }
+]
