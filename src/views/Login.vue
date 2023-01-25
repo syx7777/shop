@@ -113,7 +113,8 @@ export default{
           if (valid) {
             if(this.activeTab==='login'){
                 // console.log(this.loginForm);
-                this.$store.commit('UPDATEDUSERNAME',this.loginForm.username)
+                this.$store.commit('UPDATEDUSERNAME',this.loginForm.username),
+                this.$store.commit('UPDATEDPASSWORD',this.loginForm.password),
                 this.$router.push('/home')
             }
             if(this.activeTab==='enroll'){

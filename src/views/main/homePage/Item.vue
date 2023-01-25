@@ -9,6 +9,7 @@
                 <el-button type="primary">查询</el-button>
             </el-form-item>
         </el-form>
+        <h3>走过路过不要错过，本商城商品均为特价商品，限选一件，赶紧下单吧！！！</h3>
     </div>
     <div class="products">
         <el-card class="box-card" shadow="hover" v-for="p in filproducts" :key="p.id">
@@ -25,6 +26,10 @@
 </template>
 
 <style scoped>
+h3{
+    font-size: 20px;
+    color: red;
+}
 .el-form{
     display: flex;
     justify-content: center;
@@ -73,21 +78,21 @@ import { mapState } from 'vuex'
         data(){
             return{
                 products:[
-                    {id:'01',name:'霄坑野生茶',money:'418.8元/斤',img:require('../homePage/itemimg/01.jpg'),value:'0'},
-                    {id:'02',name:'黄山毛峰',money:'120元/斤',img:require('../homePage/itemimg/02.jpg'),value:'0'},
-                    {id:'03',name:'西湖龙井',money:'300元/斤',img:require('../homePage/itemimg/03.jpg'),value:'0'},
-                    {id:'04',name:'祁门红茶',money:'100元/斤',img:require('../homePage/itemimg/04.jpeg'),value:'0'},
-                    {id:'05',name:'安吉白茶',money:'325.8元/斤',img:require('../homePage/itemimg/05.jpg'),value:'0'},
-                    {id:'06',name:'铁观音',money:'277.2元/斤',img:require('../homePage/itemimg/06.jpeg'),value:'0'},
-                    {id:'07',name:'普洱熟茶',money:'150元/饼',img:require('../homePage/itemimg/07.jpeg'),value:'0'},
-                    {id:'08',name:'九华黄精茶',money:'195元/斤',img:require('../homePage/itemimg/08.jpg'),value:'0'},
-                    {id:'09',name:'荞麦茶',money:'38.8元/罐',img:require('../homePage/itemimg/09.jpg'),value:'0'},
-                    {id:'10',name:'玫瑰花茶',money:'24元/盒',img:require('../homePage/itemimg/10.png'),value:'0'},
-                    {id:'11',name:'菊花茶',money:'29.8元/盒',img:require('../homePage/itemimg/11.png'),value:'0'},
-                    {id:'12',name:'茉莉花茶',money:'31.9元/罐',img:require('../homePage/itemimg/12.jpeg'),value:'0'},
-                    {id:'13',name:'苦丁茶',money:'7.9元/袋',img:require('../homePage/itemimg/13.jpg'),value:'0'},
-                    {id:'14',name:'白毫银针',money:'580元/斤',img:require('../homePage/itemimg/14.jpg'),value:'0'},
-                    {id:'15',name:'冻顶乌龙',money:'680元/斤',img:require('../homePage/itemimg/15.jpg'),value:'0'},
+                    {id:'01',name:'霄坑野生茶',money:'48.8元/斤',img:require('../homePage/itemimg/01.jpg'),value:'0'},
+                    {id:'02',name:'黄山毛峰',money:'12元/斤',img:require('../homePage/itemimg/02.jpg'),value:'0'},
+                    {id:'03',name:'西湖龙井',money:'60元/斤',img:require('../homePage/itemimg/03.jpg'),value:'0'},
+                    {id:'04',name:'祁门红茶',money:'10元/斤',img:require('../homePage/itemimg/04.jpeg'),value:'0'},
+                    {id:'05',name:'安吉白茶',money:'35.8元/斤',img:require('../homePage/itemimg/05.jpg'),value:'0'},
+                    {id:'06',name:'铁观音',money:'27.2元/斤',img:require('../homePage/itemimg/06.jpeg'),value:'0'},
+                    {id:'07',name:'普洱熟茶',money:'15元/饼',img:require('../homePage/itemimg/07.jpeg'),value:'0'},
+                    {id:'08',name:'九华黄精茶',money:'16元/斤',img:require('../homePage/itemimg/08.jpg'),value:'0'},
+                    {id:'09',name:'荞麦茶',money:'8.8元/罐',img:require('../homePage/itemimg/09.jpg'),value:'0'},
+                    {id:'10',name:'玫瑰花茶',money:'4元/盒',img:require('../homePage/itemimg/10.png'),value:'0'},
+                    {id:'11',name:'菊花茶',money:'5.8元/盒',img:require('../homePage/itemimg/11.png'),value:'0'},
+                    {id:'12',name:'茉莉花茶',money:'8.9元/罐',img:require('../homePage/itemimg/12.jpeg'),value:'0'},
+                    {id:'13',name:'苦丁茶',money:'2.9元/袋',img:require('../homePage/itemimg/13.jpg'),value:'0'},
+                    {id:'14',name:'白毫银针',money:'58元/斤',img:require('../homePage/itemimg/14.jpg'),value:'0'},
+                    {id:'15',name:'冻顶乌龙',money:'68元/斤',img:require('../homePage/itemimg/15.jpg'),value:'0'},
                 ],
                 search:{
                     content:''

@@ -7,6 +7,13 @@
             <el-button type="success" round @click="sum">合计</el-button>
             <div class="jiaGe">{{ Sum }}</div>
         </ul>
+        <el-switch
+            v-model="value1"
+            active-text="支付宝"
+            inactive-text="微信">
+        </el-switch>
+        <img src="./homePage/付款2.jpg" width="200px" v-if="value1===true">
+        <img src="./homePage/付款1.png" width="230px" v-if="value1===false">
     </div>
 </template>
 <script>
@@ -16,6 +23,7 @@
         data(){
             return{
                 Sum:null,
+                value1:true
             }
         },
         methods:{
@@ -29,6 +37,9 @@
 </script>
 
 <style scoped>
+    .el-switch{
+        display: block;
+    }
     .content{
         margin:20px;
     }

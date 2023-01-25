@@ -7,7 +7,8 @@ Vue.use(Vuex)
 
 const state={
   itemList1:[],
-  username:''
+  username:'',
+  password:'',
 };
 const mutations={
   GETITEMLIST1(state,itemList1){
@@ -15,6 +16,9 @@ const mutations={
   },
   UPDATEDUSERNAME(state,username){
     state.username=username
+  },
+  UPDATEDPASSWORD(state,password){
+    state.password=password
   }
 };
 const actions={
